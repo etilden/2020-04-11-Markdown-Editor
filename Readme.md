@@ -1,6 +1,3 @@
-Link to deployed: https://git.heroku.com/markdown-editor-1.git 
-
-Default branch is "changes" due to some git challenges. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
