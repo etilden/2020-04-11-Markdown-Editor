@@ -5,7 +5,7 @@ import 'codemirror/lib/codemirror.css';
 
 function CodeEditor(props) {
   var options = {
-    lineNumbers: true,
+    lineNumbers: true
   };
   return (
     <CodeMirror value={props.code} onChange={props.updateCode} options={options} />
