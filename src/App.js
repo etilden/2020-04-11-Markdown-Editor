@@ -1,26 +1,31 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import CodeEditor from './codeEditor';
+import Converter from './converter'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      code: '// Code'
+    }
+    this.updateCode = this.updateCode.bind(this)
+  }
+
+  updateCode = (newCode) => {
+		this.setState({
+			code: newCode,
+		});
+	} 
+  render() {
+    return (
+      <div class = "row">
+        <div class = "col"><CodeEditor updateCode = {this.updateCode} code = {this.state.code}/></div>
+        <div class = "col"><Converter code = {this.state.code} /></div>
+      </div>
+    );
+  }
 }
 
 export default App;
