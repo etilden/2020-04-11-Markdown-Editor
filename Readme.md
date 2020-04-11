@@ -1,86 +1,72 @@
-# Today's Objective: Markdown Editor
+Link to deployed: https://git.heroku.com/markdown-editor-1.git 
 
-## Prize
+Default branch is "changes" due to some git challenges. 
 
-$25 CAD Amazon gift card + bragging rights.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Tip: Read the [General Information Document](General%20Information.md) for more info on how to get started and submit.
+## Available Scripts
 
-## Objective
+In the project directory, you can run:
 
-Today's objective is to create your own Markdown Editor.
+### `npm start`
 
-Markdown, as you probably already know, is a formatting language for text-based documents. This document is written in Markdown. You can see its source to get a taste for what Markdown looks like.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Some examples of Markdown Editors include:
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-* [StackEdit](https://stackedit.io/) (simple web-based)
-* [Dillinger](https://dillinger.io/) (simple web-based)
-* [Typora](https://typora.io/) (installed, with advanced features)
-* [hackmd](https://hackmd.io/) (this is a lot more than just a simple markdown editor)
+### `npm test`
 
-## Requirements
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Create a Markdown editor, like the above, that has the following components:
+### `npm run build`
 
-* Input area
-* Compilation logic (you can use a library for this)
-* Preview panel (no need to do live preview, using a submit button is fine)
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Also, you should try to have a good stylesheet for the output HTML (you can use something like Bootstrap, Bulma, etc.)
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-### Bonus points
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-You get bonus points for any features other than the above that you can successfully demo. 
+### `npm run eject`
 
-For example:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-* Live preview (where your edits in the input area automatically show up in the preview panel)
-* Syntax highlighting for input area
-* Selectable themes for input area
-* Selectable themes for preview panel
-* Print to PDF
-* Locally installed (using Electron, for example)
-* Responsive design 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-That's it!
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-The most interesting, useful, and cool designs will have a chance of winning -- and they must be written well, too. So, get creative :-)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## How to build a simple markdown editor
+## Learn More
 
-Building a markdown editor is remarkably simple. You can use libraries for a lot of the functionality, and stitch them together using JavaScript logic.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Here are some suggested components for the various components above:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Input Area - Suggested Libraries
+### Code Splitting
 
-* CodeMirror
-* Ace Editor
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Compilation Logic
+### Analyzing the Bundle Size
 
-* [Showdown](https://github.com/showdownjs/showdown)
-* [markdown-it](https://github.com/markdown-it/markdown-it)
-* [markedjs](https://github.com/markedjs/marked)
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Preview Panel
+### Making a Progressive Web App
 
-Well, for this one, you just output the compiled HTML to the DOM. :-)
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-## Frameworks:
+### Advanced Configuration
 
-It is completely possible to build this using jQuery. You can use React, Vue, Angular if you wish.
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-## Restrictions
+### Deployment
 
-* Your project must use JavaScript.
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-There are no other restrictions.
+### `npm run build` fails to minify
 
-## Tips for success:
-
-1. The project is intentionally simple so you can focus on code quality.
-1. The requirements are intentionally minimalistic so you can get as creative as you'd like.
-1. You get a LOT of time for code review comments. So you can win even if you feel your project isn't great, simply on the strength of your code review comments!
-1. Keep in mind, 33% of your score is based on aesthetic appeal! So try to make it look nice.
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

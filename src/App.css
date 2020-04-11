@@ -1,0 +1,30 @@
+.App-header {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 50%;
+  background-color: white;
+}
+
+.whole {
+  margin: 5px;
+  background-color: #282c34;
+}
+
+.additional-info {
+  color: white; 
+  font-size: calc(1px + 2vmin);
+  align-content: start;
+  margin: 10px; 
+}
