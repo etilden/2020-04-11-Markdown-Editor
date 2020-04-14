@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.8dcd9b95.chunk.css",
-    "main.js": "/static/js/main.429ad3dc.chunk.js",
-    "main.js.map": "/static/js/main.429ad3dc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.549be430.js",
-    "runtime-main.js.map": "/static/js/runtime-main.549be430.js.map",
-    "static/css/2.56a1fa8e.chunk.css": "/static/css/2.56a1fa8e.chunk.css",
-    "static/js/2.fb1d379a.chunk.js": "/static/js/2.fb1d379a.chunk.js",
-    "static/js/2.fb1d379a.chunk.js.map": "/static/js/2.fb1d379a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.070846dabac92c5ae9d35fb6b73cef9e.js": "/precache-manifest.070846dabac92c5ae9d35fb6b73cef9e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.56a1fa8e.chunk.css.map": "/static/css/2.56a1fa8e.chunk.css.map",
-    "static/css/main.8dcd9b95.chunk.css.map": "/static/css/main.8dcd9b95.chunk.css.map",
-    "static/js/2.fb1d379a.chunk.js.LICENSE.txt": "/static/js/2.fb1d379a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/2020-04-11-Markdown-Editor/static/css/main.9dadf3b1.chunk.css",
+    "main.js": "/2020-04-11-Markdown-Editor/static/js/main.83349d93.chunk.js",
+    "main.js.map": "/2020-04-11-Markdown-Editor/static/js/main.83349d93.chunk.js.map",
+    "runtime-main.js": "/2020-04-11-Markdown-Editor/static/js/runtime-main.1c4caaa5.js",
+    "runtime-main.js.map": "/2020-04-11-Markdown-Editor/static/js/runtime-main.1c4caaa5.js.map",
+    "static/css/2.56a1fa8e.chunk.css": "/2020-04-11-Markdown-Editor/static/css/2.56a1fa8e.chunk.css",
+    "static/js/2.920e0ab0.chunk.js": "/2020-04-11-Markdown-Editor/static/js/2.920e0ab0.chunk.js",
+    "static/js/2.920e0ab0.chunk.js.map": "/2020-04-11-Markdown-Editor/static/js/2.920e0ab0.chunk.js.map",
+    "index.html": "/2020-04-11-Markdown-Editor/index.html",
+    "precache-manifest.9ceb0cb41a96b432a288e235a832ea72.js": "/2020-04-11-Markdown-Editor/precache-manifest.9ceb0cb41a96b432a288e235a832ea72.js",
+    "service-worker.js": "/2020-04-11-Markdown-Editor/service-worker.js",
+    "static/css/2.56a1fa8e.chunk.css.map": "/2020-04-11-Markdown-Editor/static/css/2.56a1fa8e.chunk.css.map",
+    "static/css/main.9dadf3b1.chunk.css.map": "/2020-04-11-Markdown-Editor/static/css/main.9dadf3b1.chunk.css.map",
+    "static/js/2.920e0ab0.chunk.js.LICENSE.txt": "/2020-04-11-Markdown-Editor/static/js/2.920e0ab0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.549be430.js",
+    "static/js/runtime-main.1c4caaa5.js",
     "static/css/2.56a1fa8e.chunk.css",
-    "static/js/2.fb1d379a.chunk.js",
-    "static/css/main.8dcd9b95.chunk.css",
-    "static/js/main.429ad3dc.chunk.js"
+    "static/js/2.920e0ab0.chunk.js",
+    "static/css/main.9dadf3b1.chunk.css",
+    "static/js/main.83349d93.chunk.js"
   ]
 }
